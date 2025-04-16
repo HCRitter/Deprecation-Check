@@ -11,12 +11,13 @@ This PowerShell Module checks for deprecated commands usage in PowerShell script
 
 ## Usage
 
-    Checks the scripts MyScript.ps1 and AnotherScript.ps1 for deprecated commands from the MSOnline module.
-    ```Powershell
-    Invoke-DeprecationCheck -MSOnline -FilePaths "C:\Scripts\MyScript.ps1", "C:\Scripts\AnotherScript.ps1"
-    ```
+Checks the scripts MyScript.ps1 and AnotherScript.ps1 for deprecated commands from the MSOnline module.
 
-    ![Screenshot of running the command Invoke-DeprecationCheck](Deprecation-Check.JPG)
+```Powershell
+Invoke-DeprecationCheck -MSOnline -FilePaths "C:\Scripts\MyScript.ps1", "C:\Scripts\AnotherScript.ps1"
+```
+
+![Screenshot of running the command Invoke-DeprecationCheck](Deprecation-Check.JPG)
 
 ## Contributing
 
